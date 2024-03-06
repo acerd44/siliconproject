@@ -1,0 +1,139 @@
+.footer {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+
+    .container {
+        padding-top: 1rem;
+        text-align: center;
+
+        .silicon-brand {
+            margin-bottom: 1.5rem;
+            color: black;
+            justify-content: center;
+
+            img {
+                width: 160px;
+            }
+        }
+
+        .navbar-footer {
+            display: flex;
+            gap: 50px;
+            padding-left: 0;
+            margin-bottom: 0;
+            padding-bottom: 3rem;
+            padding-top: 1rem;
+            justify-content: center;
+
+            .navbar-footer-link {
+                text-decoration: none;
+
+                position: relative;
+                margin-top: -1px;
+                width: fit-content;
+                font-weight: 600;
+                color: var(--bs-gray-800);
+                transition: all 0.3s ease 0s;
+
+                &:hover {
+                    color: var(--bs-blue);
+                }
+            }
+
+        }
+
+        .btns-download {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+
+            .btn-appstore,
+            .btn-googleplay {
+
+                &:hover {
+                    transition: .2s ease;
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        .socials {
+            display: inline-flex;
+            justify-content: center;
+
+            .social-buttons {
+                display: flex;
+                gap: 10px;
+
+                .btn-facebook,
+                .btn-instagram,
+                .btn-twitter,
+                .btn-youtube {
+                    &:hover {
+
+                        .fa-brands {
+                            color: white;
+
+                        }
+                    }
+                }
+            }
+
+            .btn {
+                background-color: #eff2fc;
+                border-color: #eff2fc;
+            }
+
+            .btn-icon {
+                width: 2.75rem;
+                height: 2.75rem;
+            }
+
+            i {
+                padding-top: 7px;
+            }
+
+            .fa-brands {
+                color: black;
+            }
+
+            .btn-facebook {
+                &:hover {
+                    background-color: #4267B2;
+                }
+            }
+
+            .btn-instagram {
+                &:hover {
+                    background-color: var(--brandprimary);
+                }
+            }
+
+            .btn-twitter {
+                &:hover {
+                    background-color: #1DA1F2;
+                }
+            }
+
+            .btn-youtube {
+                &:hover {
+                    background-color: #FF0000;
+                }
+            }
+        }
+
+        .footer-text {
+            margin-top: 1.5rem;
+            text-align: center;
+            font-size: 0.875rem;
+            padding-top: 3rem;
+            margin-bottom: 0;
+            display: block;
+
+            span {
+                opacity: 80%;
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Logo from './../../assets/logo.svg'
 import Account_Button from './../../assets/icons/signinup_btn.svg'
 import { Link, NavLink } from 'react-router-dom'
@@ -11,21 +11,21 @@ const HeaderSection = () => {
                 <img src={Logo} />
             </Link>
             <nav className="navbar-menu">
-                <NavLink className="navbar-menu-link">Overview</NavLink>
-                <NavLink className="navbar-menu-link">Features</NavLink>
-                <NavLink className="navbar-menu-link">News</NavLink>
-                <NavLink className="navbar-menu-link">Contact</NavLink>
+                <NavLink to="/" className="navbar-menu-link">Overview</NavLink>
+                <NavLink to="/features" className="navbar-menu-link">Features</NavLink>
+                <NavLink to="/news" className="navbar-menu-link">News</NavLink>
+                <NavLink to="/contact" className="navbar-menu-link">Contact</NavLink>
             </nav>
             <div className="btn-theme">
                 <input type='checkbox' className="checkbox" id="chk" />
-                <label className="label" for="chk">
+                <label className="label" htmlFor="chk">
                     <i className="fas fa-moon"></i>
                     <i className="fas fa-sun"></i>
                     <div className="ball"></div>
                 </label>
             </div>
             <div>
-                <NavLink className="btn-account" ><img src={Account_Button} /></NavLink>
+                <Link className="btn-account" to="/account"><img src={Account_Button} /></Link>
             </div>
         </header>
     )

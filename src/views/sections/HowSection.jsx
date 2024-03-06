@@ -11,7 +11,7 @@ const HowSection = () => {
                     <button className="btn btn-prev btn-icon">
                         <i className="fa fa-chevron-left"></i>
                     </button>
-                    <div class="mobile-images">
+                    <div className="mobile-images">
                         <img src={Image_1} className="mobile-image opacity-70" />
                         <img src={Image_2} className="mobile-image" />
                         <img src={Image_3} className="mobile-image opacity-70" />
