@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './css/main.min.css'
 import Home from './views/Home'
 import HeaderSection from './views/sections/HeaderSection'
-import FooterSection from './views/sections/FooterSection'
+import Contact from './views/Contact'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 
@@ -12,8 +12,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <HeaderSection />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <FooterSection />
     </BrowserRouter>
 
   </React.StrictMode>,

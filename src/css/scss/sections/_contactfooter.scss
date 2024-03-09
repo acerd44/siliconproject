@@ -1,0 +1,111 @@
+.contact-footer {
+    flex-shrink: 0;
+    padding-bottom: 3rem;
+    background-color: #0b0f19;
+    padding-top: 3rem;
+    border-color: rgba(255, 255, 255, .14);
+    border-top: 1px solid rgba(255, 255, 255, .14);
+
+    .container {
+        padding-top: 1.5rem;
+
+        .row {
+            padding-bottom: 3rem;
+
+            .col-4 {
+                .silicon-brand {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .desc {
+                    margin-top: 1.5rem;
+                    padding-bottom: 1rem;
+                    color: white;
+                    font-size: 0.875rem;
+                    opacity: 0.7;
+                }
+            }
+
+            .col-6 {
+                padding-top: 0;
+                margin-left: 16%;
+
+                .footer-links {
+                    .footer-ul {
+                        padding-bottom: 0.25rem;
+                        margin-bottom: 1rem;
+                        display: flex;
+                        flex-wrap: wrap;
+                        padding-left: 0;
+                        list-style: none;
+                        font-weight: 600;
+                        flex-direction: column;
+
+                        li {
+                            margin-bottom: 0;
+
+                            a {
+                                padding-bottom: 0.5rem;
+                                padding-top: 0.25rem;
+                                display: block;
+                                text-decoration: none;
+                                color: rgba(255, 255, 255, 0.85);
+                                transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+
+                                &:hover {
+                                    color: #6366f1;
+                                }
+                            }
+                        }
+                    }
+
+                    .links {
+                        display: block;
+
+                        #plinks {
+                            .page-ul {
+                                padding-bottom: 0.25rem;
+                                margin-bottom: 1rem;
+                            }
+
+                            .info-ul {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+
+                    .contact-us-email {
+                        padding-top: 0;
+
+                        h6 {
+                            color: rgba(255, 255, 255, 0.85);
+                            font-weight: 800;
+
+                        }
+
+                        a {
+                            font-weight: 600;
+                            transition: color .2s ease-in-out;
+
+                            &:hover {
+                                color: #6366f1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .rights {
+            display: block;
+            text-align: left;
+            font-size: 0.75rem;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            span {
+                color: white;
+                 opacity: 0.5;
+            }
+        }
+    }
+}

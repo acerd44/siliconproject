@@ -7,6 +7,7 @@ import MoreFeaturesSection from './sections/MoreFeaturesSection'
 import TestimonialsSection from './sections/TestimonialsSection'
 import FAQSection from './sections/FAQSection'
 import SubscribeSection from './sections/SubscribeSection'
+import FooterSection from './sections/FooterSection'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <TestimonialsSection />
       <FAQSection />
       <SubscribeSection />
+      <FooterSection />
     </main>
   )
 }

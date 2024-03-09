@@ -5,7 +5,7 @@ const FAQSection = () => {
         <section className="faq-section">
             <div className="container">
                 <div className="row faq">
-                    <div className="any-questions col-xl-4 col-md-5">
+                    <div className="any-questions col-4">
                         <h2>
                             Any questions?
                             <br />
@@ -45,7 +45,7 @@ const FAQSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="faq-accordions col-md-7 offset-xl-1">
+                    <div className="faq-accordions col-7">
                         <div className="accordion" id="faq">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="q1-heading">

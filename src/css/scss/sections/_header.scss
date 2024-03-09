@@ -35,6 +35,11 @@
         &:hover {
             color: var(--bs-blue);
         }
+
+    }
+
+    .active {
+        color: var(--bs-blue);
     }
 
     .fa-moon {
@@ -104,9 +109,4 @@
         transition: .2s ease;
         opacity: 0.8;
     }
-}
-
-
-.active {
-    color: var(--bs-blue);
 }

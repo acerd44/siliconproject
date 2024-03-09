@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
         <section className="testimonials-section">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-3 col-lg-4 pt-2">
+                    <div className="col-3">
                         <h1>Clients are Loving Our App</h1>
                         <div className="buttons">
                             <button className="btn btn-prev btn-icon">
@@ -17,7 +17,7 @@ const TestimonialsSection = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="testimonials col-lg-8">
+                    <div className="testimonials col-8">
                         <div>
                             <div className="testimonial-card-body">
                                 <div className="testimonial-cards">

@@ -39,7 +39,7 @@ const MoreFeaturesSection = () => {
                     </div>
                 </div>
                 <div className="section-two row">
-                    <div className="section-two-images col-md-6">
+                    <div className="section-two-images col-6">
                         <div className="section-two-image-one">
                             <img src={Contacts} className="d-block" />
                             <div className="section-two-image-two">
@@ -47,7 +47,7 @@ const MoreFeaturesSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="section-two-text col-md-6">
+                    <div className="section-two-text col-6">
                         <h2>Receive payment from<br />international bank details</h2>
                         <div className="row row-cols-2 text-start pb-3">
                             <div className="col pb-4">

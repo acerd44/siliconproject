@@ -13,7 +13,7 @@ const ShowcaseSection = () => {
                         Manage All Your Money in One App
                     </h1>
                     <p>
-                        We offer you a new generation of the mobile banking. Save, spend & manage money in your pocket.
+                        We offer you a new generation of the mobile banking. <br />Save, spend & manage money in your pocket.
                     </p>
 
                     <div className="btns-download">

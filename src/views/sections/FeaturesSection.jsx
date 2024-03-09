@@ -21,74 +21,68 @@ const FeaturesSection = () => {
                 <div className="features">
                     <div className="row row-cols-2">
                         <div className="col">
-                            <div className="d-flex">
-                                <div className="d-table">
+                            <div className="feature-container">
+                                <div className="feature-icon">
                                     <img src={Feature_1} />
                                 </div>
-                                <div>
+                                <div className="feature-text">
                                     <h3>Easy Payments</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis
-                                        ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+                                    <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="d-flex">
-                                <div className="d-table">
+                            <div className="feature-container">
+                                <div className="feature-icon">
                                     <img src={Feature_2} />
                                 </div>
-                                <div>
+                                <div className="feature-text">
                                     <h3>Data Security</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis
-                                        ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+                                    <p>Augue pulvinar justo, fermentum fames aliquam accumsan vestibulum non.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="d-flex">
-                                <div className="d-table">
+                            <div className="feature-container">
+                                <div className="feature-icon">
                                     <img src={Feature_3} />
                                 </div>
-                                <div>
+                                <div className="feature-text">
                                     <h3>Cost Statistics</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis
-                                        ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+                                    <p>Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="d-flex ">
-                                <div className="d-table">
+                            <div className="feature-container">
+                                <div className="feature-icon">
                                     <img src={Feature_4} />
                                 </div>
-                                <div>
+                                <div className="feature-text">
                                     <h3>Support 24/7</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis
-                                        ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+                                    <p>A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="d-flex ">
-                                <div className="d-table">
+                            <div className="feature-container">
+                                <div className="feature-icon">
                                     <img src={Feature_5} />
                                 </div>
-                                <div>
+                                <div className="feature-text">
                                     <h3>Regular Cashback</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis
-                                        ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+                                    <p>Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
-                            <div className="d-flex ">
-                                <div className="d-table">
+                            <div className="feature-container">
+                                <div className="feature-icon">
                                     <img src={Feature_6} />
                                 </div>
-                                <div>
+                                <div className="feature-text">
                                     <h3>Top Standards</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis
-                                        ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+                                    <p>Faucibus cursus maecenas lorem cursus nibh. Sociis sit risus id. Sit facilisis dolor arcu.</p>
                                 </div>
                             </div>
                         </div>
