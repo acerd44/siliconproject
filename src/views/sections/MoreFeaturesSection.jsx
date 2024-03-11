@@ -51,7 +51,7 @@ const MoreFeaturesSection = () => {
                         <h2>Receive payment from<br />international bank details</h2>
                         <div className="row row-cols-2 text-start pb-3">
                             <div className="col pb-4">
-                                <div className="d-table">
+                                <div className="feature-icon">
                                     <img src={Credit_Card} />
                                 </div>
                                 <p className="mb-0">
@@ -59,7 +59,7 @@ const MoreFeaturesSection = () => {
                                 </p>
                             </div>
                             <div className="col pb-4">
-                                <div className="d-table">
+                                <div className="feature-icon">
                                     <img src={Wallet} />
                                 </div>
                                 <p className="mb-0">
@@ -68,7 +68,7 @@ const MoreFeaturesSection = () => {
                             </div>
                         </div>
                         <a href="#" className="btn btn-primary" >Learn more&nbsp;&nbsp;
-                        <i className="fa-solid fa-arrow-right"> </i></a>
+                            <i className="fa-solid fa-arrow-right"> </i></a>
                     </div>
 
                 </div>
