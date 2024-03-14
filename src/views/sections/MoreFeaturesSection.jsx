@@ -41,9 +41,9 @@ const MoreFeaturesSection = () => {
                 <div className="section-two row">
                     <div className="section-two-images col-6">
                         <div className="section-two-image-one">
-                            <img src={Contacts} className="d-block" />
+                            <img src={Contacts} className="" />
                             <div className="section-two-image-two">
-                                <img src={Card} className="d-block" />
+                                <img src={Card} className="" />
                             </div>
                         </div>
                     </div>

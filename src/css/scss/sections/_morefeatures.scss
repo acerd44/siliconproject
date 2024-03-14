@@ -43,6 +43,7 @@
             .section-one-text {
                 grid-column: 1;
                 padding-bottom: 1.5rem;
+                margin-left: 10%;
                 order: 1;
 
                 h2 {
@@ -94,20 +95,16 @@
                 }
 
                 .section-two-image-two {
-                    margin-right: -1rem;
                     height: 100%;
                     width: 100%;
                     position: absolute;
-
-                    img {
-                        transform: translate3d(100px, 120px, 0px);
-                    }
+                    transform: translate3d(100px, -320px, 0px);
                 }
             }
 
             .section-two-text {
                 grid-column: 2;
-                margin-left: 50%;
+                margin-left: 40%;
 
                 .feature-icon {
                     display: table;

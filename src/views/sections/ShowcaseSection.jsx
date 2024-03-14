@@ -20,7 +20,16 @@ const ShowcaseSection = () => {
                         <Link to="*" className="btn-appstore"><img src={Appstore} /></Link>
                         <Link to="*" className="btn-googleplay"><img src={Googleplay} /></Link>
                     </div>
-                    <Link to="/" className="discover-more">Discover more</Link>
+                    <div className="discover-more">
+                        <a>
+                            <button className="btn btn-next btn-icon">
+                                <i className="fa fa-chevron-down"></i>
+
+                            </button>
+                            <span>Discover more</span>
+                        </a>
+                    </div>
+
                 </div>
                 <img className="phones" src={Phones} />
             </div>

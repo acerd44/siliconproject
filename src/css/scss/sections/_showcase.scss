@@ -8,8 +8,50 @@
 
         .desc {
             grid-area: desc;
-            padding-top: 3rem;
-            padding-bottom: 3rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            .discover-more {
+                position: absolute;
+                bottom: 50px;
+                left: 50px;
+                font-size: 1rem;
+                text-decoration: none;
+                color: var(--bs-gray-900);
+                transition: all 0.3s ease 0s;
+                cursor: pointer;
+
+                span {
+                    padding-left: 0.7rem;
+                }
+
+                &:hover {
+                    color: var(--bs-blue);
+                }
+
+                .btn {
+                    cursor: pointer;
+                    color: #33354d;
+                    background-color: white;
+                    border: 0;
+                    border-radius: 50%;
+                    transition: color .2s ease-in-out;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: var(--brandprimary);
+                        color: white;
+                    }
+                }
+            }
+
+
+
+            .btn-icon {
+                width: 2.25rem;
+                height: 2.25rem;
+                padding: 0;
+            }
 
             h1 {
                 font-weight: 800;
@@ -49,18 +91,6 @@
             }
         }
 
-        .discover-more {
-            position: absolute;
-            bottom: 50px;
-            left: 50px;
-            text-decoration: none;
-            color: var(--bs-gray-900);
-            transition: all 0.3s ease 0s;
-            cursor: pointer;
 
-            &:hover {
-                color: var(--bs-blue);
-            }
-        }
     }
 }
