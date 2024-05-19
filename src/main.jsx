@@ -11,8 +11,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <HeaderSection />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/siliconproject" element={<Home />} />
+        <Route path="/siliconproject/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
 
