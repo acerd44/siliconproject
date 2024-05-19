@@ -7,14 +7,14 @@ const HeaderSection = () => {
 
     return (
         <header className="navbar">
-            <Link className="silicon-logo" to="/">
+            <Link className="silicon-logo" to="/siliconproject">
                 <img src={Logo} />
             </Link>
             <nav className="navbar-menu">
-                <NavLink to="/" className="navbar-menu-link">Overview</NavLink>
-                <NavLink to="/features" className="navbar-menu-link">Features</NavLink>
-                <NavLink to="/news" className="navbar-menu-link">News</NavLink>
-                <NavLink to="/contact" className="navbar-menu-link">Contact</NavLink>
+                <NavLink to="/siliconproject/" className="navbar-menu-link">Overview</NavLink>
+                <NavLink to="/siliconproject/features" className="navbar-menu-link">Features</NavLink>
+                <NavLink to="/siliconproject/news" className="navbar-menu-link">News</NavLink>
+                <NavLink to="/siliconproject/contact" className="navbar-menu-link">Contact</NavLink>
             </nav>
             <div className="btn-theme">
                 <input type='checkbox' className="checkbox" id="chk" />
@@ -25,7 +25,7 @@ const HeaderSection = () => {
                 </label>
             </div>
             <div>
-                <Link className="btn-account" to="/account"><img src={Account_Button} /></Link>
+                <Link className="btn-account" to="/siliconproject/account"><img src={Account_Button} /></Link>
             </div>
         </header>
     )
