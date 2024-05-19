@@ -1,0 +1,39 @@
+.subscribe-section {
+    .container {
+        .bg-secondary {
+            padding: 3rem 0;
+            border-radius: 0.5rem;
+            background-color: #f3f6ff !important;
+
+            .row {
+                padding: 1.5rem 0;
+                align-items: center;
+
+                .col-text {
+                    margin-bottom: 0;
+                    margin-left: 8%;
+
+                    .subscribe-text-container {
+                        display: flex;
+                        align-items: center;
+
+                        .subscribe-text {
+                            margin-left: 1rem;
+                            padding-left: 1rem;
+
+                            h4 {
+                                margin-bottom: 0;
+                                font-weight: 800;
+                            }
+                        }
+                    }
+                }
+
+                .col-form {
+                    margin-left: 0.5rem;
+                    padding-left: 3rem;
+                }
+            }
+        }
+    }
+}

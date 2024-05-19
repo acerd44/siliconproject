@@ -1,0 +1,96 @@
+.showcase {
+    background: linear-gradient(-1deg, rgba(99, 101, 241, 0.10) 0%, rgba(216, 70, 239, 0.05) 45%, rgba(241, 244, 253, 0.07) 75%);
+
+    .container {
+        display: grid;
+        grid-template-areas: "desc img";
+        position: relative;
+
+        .desc {
+            grid-area: desc;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            .discover-more {
+                position: absolute;
+                bottom: 50px;
+                left: 50px;
+                font-size: 1rem;
+                text-decoration: none;
+                color: var(--bs-gray-900);
+                transition: all 0.3s ease 0s;
+                cursor: pointer;
+
+                span {
+                    padding-left: 0.7rem;
+                }
+
+                &:hover {
+                    color: var(--bs-blue);
+                }
+
+                .btn {
+                    cursor: pointer;
+                    color: #33354d;
+                    background-color: white;
+                    border: 0;
+                    border-radius: 50%;
+                    transition: color .2s ease-in-out;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: var(--brandprimary);
+                        color: white;
+                    }
+                }
+            }
+
+
+
+            .btn-icon {
+                width: 2.25rem;
+                height: 2.25rem;
+                padding: 0;
+            }
+
+            h1 {
+                font-weight: 800;
+                padding-top: 80px;
+                font-size: 3.5rem;
+                line-height: 1.3;
+            }
+
+            p {
+                margin-bottom: 3rem;
+                padding-bottom: 1rem;
+                font-size: 1.125rem;
+                color: var(--bs-gray-600)
+            }
+
+            .btns-download {
+                display: flex;
+                gap: 20px;
+                margin: 40px 0;
+
+                .btn-appstore,
+                .btn-googleplay {
+                    &:hover {
+                        transition: .2s ease;
+                        opacity: 0.8;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .phones {
+                grid-area: img;
+                width: 100%;
+            }
+        }
+
+
+    }
+}

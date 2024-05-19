@@ -1,0 +1,120 @@
+.faq-section {
+    .container {
+        margin-bottom: 0.5rem;
+        padding: 3rem 0;
+
+        .faq {
+            padding: 3rem 0;
+
+            .any-questions {
+                text-align: left;
+                padding-bottom: 0.5;
+                padding-top: 0.5rem;
+                margin-bottom: 0;
+
+                h2 {
+                    font-weight: 800;
+                }
+
+                p {
+                    margin-bottom: 1rem;
+                    font-size: 1.125rem;
+                    padding-bottom: 1rem;
+                }
+            }
+
+            .card {
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: translateY(-10px);
+                }
+            }
+
+            .card-body {
+                padding-bottom: 1rem;
+
+                .faq-btn {
+                    p {
+                        font-size: 0.875rem;
+                        margin-bottom: 0.5rem;
+                    }
+
+                    a {
+                        padding-left: 0;
+                        padding-right: 0;
+                        background-color: white;
+                        border: 0;
+
+                        i {
+                            padding-left: 10px;
+                        }
+                    }
+                }
+
+                .chat {
+                    .fa-comment {
+                        color: #22c55e;
+                        font-size: 2rem;
+                        padding: 0.25rem 0;
+                        margin-bottom: 0.5rem;
+                        display: block;
+                    }
+
+                    a {
+                        color: #22c55e;
+                    }
+                }
+
+                .call {
+                    .fa-phone-volume {
+                        color: #6366f1;
+                        font-size: 2rem;
+                        padding: 0.25rem 0;
+                        margin-bottom: 0.5rem;
+                        display: block;
+                    }
+
+                    a {
+                        color: #6366f1;
+                    }
+                }
+            }
+        }
+
+        .faq-accordions {
+            margin-left: 8.3%;
+            .accordion-item {
+                border: 0;
+                margin-bottom: 1rem;
+                box-shadow: 0 .275rem .75rem -0.0625rem rgba(11, 15, 25, .06), 0 .125rem .4rem -0.0625rem rgba(11, 15, 25, .03);
+                color: #565973;
+                border-radius: 0.5rem;
+
+                .accordion-header {
+                    margin-bottom: 0;
+                }
+
+                .accordion-button {
+                    background-color: white;
+                    font-weight: 700;
+                    transition: color 0.1s ease;
+
+                    &:hover {
+                        background-color: var(--brandprimary);
+                        color: white;
+                    }
+                }
+
+                .accordion-body {
+                    font-size: 0.875rem;
+                    padding-top: 0;
+
+                    p {
+                        padding-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

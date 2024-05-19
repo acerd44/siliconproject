@@ -1,0 +1,22 @@
+.dark-subscribe-button {
+    background-color: transparent;
+
+    label {
+        color: white;
+        font-weight: 600;
+        font-size: 0.875rem;
+        margin-bottom: 0.3rem;
+    }
+
+    #subscribe-email {
+        background-color: rgba(255, 255, 255, .02);
+        border-color: rgba(255, 255, 255, .18);
+        color: white;
+
+        &::placeholder {
+            font-size: 0.875rem;
+            color: #565973;
+            font-weight: 600;
+        }
+    }
+}
